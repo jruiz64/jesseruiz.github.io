@@ -1,4 +1,4 @@
-var projects = document.getElementById("projects");
+var projects = document.getElementById('projects');
 
 projects.addEventListener('click', function() {
   $(projects).toggleClass("active");
