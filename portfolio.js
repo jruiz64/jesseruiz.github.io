@@ -1,6 +1,8 @@
-var projects = document.getElementById('projects');
-
-projects.addEventListener('click', function() {
-  $(projects).toggleClass("active");
-  $(".parent:not(#projects)").toggleClass("invisible");
-}, false);
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
